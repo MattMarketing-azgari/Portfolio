@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Matthew “Astro” Starr — Portfolio</title>
+  <meta name="description" content="Portfolio of Matthew “Astro” Starr — high school marketing student and designer. Designs, infographics, and certifications." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== Header / Nav ===== -->
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="#top" class="nav__logo">ASTRO<span class="accent">.</span></a>
+      <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#designs">Designs</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact" class="nav__cta">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <!-- ===== Hero ===== -->
+    <section class="hero container">
+      <p class="hero__eyebrow">Hi, I'm Matthew “Astro” Starr</p>
+      <h1 class="hero__title">Marketing brain.<br />Design eye.<br /><span class="accent-glow">One person.</span></h1>
+      <p class="hero__sub">
+        12th grade marketing student turning ideas into clean visuals —
+        social posts, infographics, and everything in between.
+      </p>
+      <div class="hero__actions">
+        <a href="#designs" class="btn btn--primary">View my work</a>
+        <a href="#contact" class="btn btn--ghost">Get in touch</a>
+      </div>
+    </section>
+
+    <!-- ===== Designs ===== -->
+    <section id="designs" class="section container">
+      <div class="section__head">
+        <h2 class="section__title">Designs<span class="accent">.</span></h2>
+        <p class="section__sub">A content campaign I designed for Kitewell AI — an AI front-desk service that answers calls, books appointments, and sends reminders. Click any piece to view it full size.</p>
+      </div>
+
+      <div class="gallery gallery--designs" data-gallery>
+        <figure class="card" data-lightbox>
+          <img src="assets/designs/kitewell-instagram-post.png" alt="Kitewell AI Instagram post design" loading="lazy" />
+          <figcaption>
+            <h3>Kitewell AI — Instagram Post</h3>
+            <p>Canva · Social Media</p>
+          </figcaption>
+        </figure>
+
+        <figure class="card" data-lightbox>
+          <img src="assets/designs/kitewell-email-banner.png" alt="Kitewell AI email banner design" loading="lazy" />
+          <figcaption>
+            <h3>Kitewell AI — Email Header</h3>
+            <p>Canva · Email Marketing</p>
+          </figcaption>
+        </figure>
+
+        <figure class="card card--banner" data-lightbox>
+          <img src="assets/designs/kitewell-linkedin-banner.png" alt="Kitewell AI LinkedIn banner design" loading="lazy" />
+          <figcaption>
+            <h3>Kitewell AI — LinkedIn Banner</h3>
+            <p>Canva · Social Media</p>
+          </figcaption>
+        </figure>
+
+        <figure class="card card--poster" data-lightbox>
+          <img src="assets/designs/kitewell-infographic.png" alt="From Missed Call to Booked infographic for Kitewell AI" loading="lazy" />
+          <figcaption>
+            <h3>From Missed Call to Booked</h3>
+            <p>Canva · Infographic</p>
+          </figcaption>
+        </figure>
+
+        <figure class="card card--media" data-lightbox data-video-src="assets/designs/kitewell-promo.mp4">
+          <div class="card__media">
+            <video src="assets/designs/kitewell-promo.mp4#t=0.5" muted preload="metadata"></video>
+            <span class="card__play" aria-hidden="true">&#9654;</span>
+          </div>
+          <figcaption>
+            <h3>Kitewell AI — Animated Promo</h3>
+            <p>Canva · Motion</p>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ===== Certificates ===== -->
+    <section id="certificates" class="section container">
+      <div class="section__head">
+        <h2 class="section__title">Certificates<span class="accent">.</span></h2>
+        <p class="section__sub">Programs and courses I've completed. Click to view the full certificate.</p>
+      </div>
+
+      <div class="gallery gallery--certs" data-gallery>
+        <figure class="card" data-lightbox>
+          <img src="assets/certificates/hubspot-digital-marketing.png" alt="Digital Marketing Certified certificate from HubSpot Academy" loading="lazy" />
+          <figcaption>
+            <h3>Digital Marketing Certified</h3>
+            <p>HubSpot Academy · 2026</p>
+          </figcaption>
+        </figure>
+
+        <figure class="card" data-lightbox>
+          <img src="assets/certificates/hubspot-email-marketing.png" alt="Email Marketing Certified certificate from HubSpot Academy" loading="lazy" />
+          <figcaption>
+            <h3>Email Marketing Certified</h3>
+            <p>HubSpot Academy · 2026</p>
+          </figcaption>
+        </figure>
+
+        <figure class="card" data-lightbox>
+          <img src="assets/certificates/ai-fluency-for-students.png" alt="AI Fluency for Students certificate from Anthropic" loading="lazy" />
+          <figcaption>
+            <h3>AI Fluency for Students</h3>
+            <p>Anthropic · 2026</p>
+          </figcaption>
+        </figure>
+
+        <figure class="card" data-lightbox>
+          <img src="assets/certificates/ai-fluency-framework-foundations.png" alt="AI Fluency: Framework and Foundations certificate from Anthropic" loading="lazy" />
+          <figcaption>
+            <h3>AI Fluency: Framework &amp; Foundations</h3>
+            <p>Anthropic · 2026</p>
+          </figcaption>
+        </figure>
+
+        <figure class="card" data-lightbox>
+          <img src="assets/certificates/claude-101.png" alt="Claude 101 certificate from Anthropic" loading="lazy" />
+          <figcaption>
+            <h3>Claude 101</h3>
+            <p>Anthropic · 2026</p>
+          </figcaption>
+        </figure>
+
+        <figure class="card" data-lightbox>
+          <img src="assets/certificates/career-essentials-generative-ai.png" alt="Career Essentials in Generative AI certificate by Microsoft and LinkedIn" loading="lazy" />
+          <figcaption>
+            <h3>Career Essentials in Generative AI</h3>
+            <p>Microsoft &amp; LinkedIn · 2026</p>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ===== About ===== -->
+    <section id="about" class="section container">
+      <div class="section__head">
+        <h2 class="section__title">About<span class="accent">.</span></h2>
+      </div>
+      <div class="about">
+        <p>
+          I'm Matthew — most people call me <strong>Astro</strong>. I'm a 12th grader
+          studying marketing, and somewhere along the way I fell in love with the
+          visual side of it: making ideas look as good as they sound.
+        </p>
+        <p>
+          I design social posts, banners, and infographics in
+          <code>Canva</code> — my biggest piece so far is a full content campaign
+          for Kitewell AI, an AI front-desk service. I've also been collecting
+          certifications along the way: Anthropic's AI fluency courses,
+          Microsoft and LinkedIn's generative AI program, and HubSpot's
+          marketing track.
+        </p>
+        <p>
+          No grand plan pinned to the wall yet — just learning things that seem
+          useful, making things while I do, and keeping the door open.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section id="contact" class="section container">
+      <div class="contact">
+        <h2 class="contact__title">Let's connect<span class="accent">.</span></h2>
+        <p class="contact__sub">Want to collaborate, ask a question, or just say hi? My inbox is always open.</p>
+        <a href="mailto:you@example.com" class="btn btn--primary btn--lg">you@example.com</a>
+        <div class="contact__socials">
+          <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.linkedin.com/in/yourusername" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://www.behance.net/yourusername" target="_blank" rel="noopener">Behance</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Matthew “Astro” Starr. Designed &amp; built by me.</p>
+    </div>
+  </footer>
+
+  <!-- ===== Lightbox ===== -->
+  <div class="lightbox" id="lightbox" hidden>
+    <button class="lightbox__close" id="lightboxClose" aria-label="Close">&times;</button>
+    <button class="lightbox__nav lightbox__nav--prev" id="lightboxPrev" aria-label="Previous">&#8592;</button>
+    <figure class="lightbox__body">
+      <img id="lightboxImg" src="" alt="" />
+      <video id="lightboxVideo" controls playsinline hidden></video>
+      <figcaption id="lightboxCaption"></figcaption>
+    </figure>
+    <button class="lightbox__nav lightbox__nav--next" id="lightboxNext" aria-label="Next">&#8594;</button>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
